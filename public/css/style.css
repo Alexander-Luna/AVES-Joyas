@@ -413,34 +413,48 @@ textarea.input {
 .header-ctn .icon-container {
   position: relative;
   display: inline-block;
-  font-size: 20px; /* Tamaño del icono */
+  font-size: 20px;
+  /* Tamaño del icono */
   text-align: center;
 }
 
 /* Círculo rojo con el número */
 .header-ctn .icon-container .qty {
   position: absolute;
-  top: -5px; /* Ajusta la posición vertical del círculo */
-  right: -10px; /* Ajusta la posición horizontal del círculo */
+  top: -5px;
+  /* Ajusta la posición vertical del círculo */
+  right: -10px;
+  /* Ajusta la posición horizontal del círculo */
   background-color: #f43f81;
-  color: #fff; /* Color del texto blanco */
-  font-size: 12px; /* Tamaño del número */
+  color: #fff;
+  /* Color del texto blanco */
+  font-size: 12px;
+  /* Tamaño del número */
   font-weight: bold;
-  width: 18px; /* Ancho del círculo */
-  height: 18px; /* Alto del círculo */
-  line-height: 18px; /* Alineación vertical del texto */
+  width: 18px;
+  /* Ancho del círculo */
+  height: 18px;
+  /* Alto del círculo */
+  line-height: 18px;
+  /* Alineación vertical del texto */
   text-align: center;
-  border-radius: 50%; /* Hace que el número sea un círculo */
+  border-radius: 50%;
+  /* Hace que el número sea un círculo */
 }
 
 /* Texto debajo del icono */
 .header-ctn .text {
   display: block;
-  font-size: 12px; /* Tamaño del texto */
-  color: #fff; /* Color del texto */
-  text-align: center; /* Centrar el texto debajo del icono */
-  margin-top: 5px; /* Separación entre el icono y el texto */
+  font-size: 12px;
+  /* Tamaño del texto */
+  color: #fff;
+  /* Color del texto */
+  text-align: center;
+  /* Centrar el texto debajo del icono */
+  margin-top: 5px;
+  /* Separación entre el icono y el texto */
 }
+
 /*                  */
 
 

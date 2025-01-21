@@ -35,43 +35,45 @@
                     <!-- Billing Details -->
                     <div class="billing-details">
                         <div class="section-title">
-                            <h3 class="title">Billing address</h3>
+                            <h3 class="title">Información del Comprador</h3>
                         </div>
                         <div class="form-group">
-                            <input class="input" type="text" name="first-name" placeholder="First Name">
+                            <input class="input" type="text" name="ci" placeholder="Documento de identidad">
                         </div>
                         <div class="form-group">
-                            <input class="input" type="text" name="last-name" placeholder="Last Name">
+                            <input class="input" type="text" name="first-name" placeholder="Nombres">
+                        </div>
+                        <div class="form-group">
+                            <input class="input" type="text" name="last-name" placeholder="Apellidos">
                         </div>
                         <div class="form-group">
                             <input class="input" type="email" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <input class="input" type="text" name="address" placeholder="Address">
+                            <input class="input" type="text" name="address" placeholder="Dirección">
                         </div>
                         <div class="form-group">
-                            <input class="input" type="text" name="city" placeholder="City">
+                            <input class="input" type="text" name="province" placeholder="Provincia">
                         </div>
                         <div class="form-group">
-                            <input class="input" type="text" name="country" placeholder="Country">
+                            <input class="input" type="text" name="city" placeholder="Ciudad">
                         </div>
                         <div class="form-group">
-                            <input class="input" type="text" name="zip-code" placeholder="ZIP Code">
-                        </div>
-                        <div class="form-group">
-                            <input class="input" type="tel" name="tel" placeholder="Telephone">
+                            <input class="input" type="tel" name="tel" placeholder="Celular">
                         </div>
                         <div class="form-group">
                             <div class="input-checkbox">
                                 <input type="checkbox" id="create-account">
                                 <label for="create-account">
                                     <span></span>
-                                    Create Account?
+                                    ¿Crear cuenta?
                                 </label>
                                 <div class="caption">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt.</p>
-                                    <input class="input" type="password" name="password" placeholder="Enter Your Password">
+                                    <p>Recuerde crear una contraseña segura de mínimo 8 caracteres</p>
+                                    <input class="input" type="password" name="password"
+                                        placeholder="Escriba una contraseña">
+                                    <input class="input" type="password" name="password"
+                                        placeholder="Repita su contraseña">
                                 </div>
                             </div>
                         </div>
@@ -81,38 +83,39 @@
                     <!-- Shiping Details -->
                     <div class="shiping-details">
                         <div class="section-title">
-                            <h3 class="title">Shiping address</h3>
+                            <h3 class="title">Enviar a otra Dirección</h3>
                         </div>
                         <div class="input-checkbox">
                             <input type="checkbox" id="shiping-address">
                             <label for="shiping-address">
                                 <span></span>
-                                Ship to a diffrent address?
+                                ¿Seleccionar una dirección de envió diferente?
                             </label>
                             <div class="caption">
                                 <div class="form-group">
-                                    <input class="input" type="text" name="first-name" placeholder="First Name">
+                                    <input class="input" type="text" name="ci"
+                                        placeholder="Documento de identidad">
                                 </div>
                                 <div class="form-group">
-                                    <input class="input" type="text" name="last-name" placeholder="Last Name">
+                                    <input class="input" type="text" name="first-name" placeholder="Nombres">
+                                </div>
+                                <div class="form-group">
+                                    <input class="input" type="text" name="last-name" placeholder="Apellidos">
                                 </div>
                                 <div class="form-group">
                                     <input class="input" type="email" name="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input class="input" type="text" name="address" placeholder="Address">
+                                    <input class="input" type="text" name="address" placeholder="Dirección">
                                 </div>
                                 <div class="form-group">
-                                    <input class="input" type="text" name="city" placeholder="City">
+                                    <input class="input" type="text" name="province" placeholder="Provincia">
                                 </div>
                                 <div class="form-group">
-                                    <input class="input" type="text" name="country" placeholder="Country">
+                                    <input class="input" type="text" name="city" placeholder="Ciudad">
                                 </div>
                                 <div class="form-group">
-                                    <input class="input" type="text" name="zip-code" placeholder="ZIP Code">
-                                </div>
-                                <div class="form-group">
-                                    <input class="input" type="tel" name="tel" placeholder="Telephone">
+                                    <input class="input" type="tel" name="tel" placeholder="Celular">
                                 </div>
                             </div>
                         </div>
@@ -121,7 +124,7 @@
 
                     <!-- Order notes -->
                     <div class="order-notes">
-                        <textarea class="input" placeholder="Order Notes"></textarea>
+                        <textarea class="input" placeholder="Información adicional"></textarea>
                     </div>
                     <!-- /Order notes -->
                 </div>
@@ -129,11 +132,11 @@
                 <!-- Order Details -->
                 <div class="col-md-5 order-details">
                     <div class="section-title text-center">
-                        <h3 class="title">Your Order</h3>
+                        <h3 class="title">Tu Orden</h3>
                     </div>
                     <div class="order-summary">
                         <div class="order-col">
-                            <div><strong>PRODUCT</strong></div>
+                            <div><strong>PRODUCTOS</strong></div>
                             <div><strong>TOTAL</strong></div>
                         </div>
                         <div class="order-products">
@@ -147,8 +150,8 @@
                             </div>
                         </div>
                         <div class="order-col">
-                            <div>Shiping</div>
-                            <div><strong>FREE</strong></div>
+                            <div>Envió</div>
+                            <div><strong>GRATIS</strong></div>
                         </div>
                         <div class="order-col">
                             <div><strong>TOTAL</strong></div>
@@ -160,33 +163,31 @@
                             <input type="radio" name="payment" id="payment-1">
                             <label for="payment-1">
                                 <span></span>
-                                Direct Bank Transfer
+                                Transferencia Bancaria
                             </label>
                             <div class="caption">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Para transferencia bancaria enviar el comprobante de pago junto con su id de compra para
+                                    validar la orden</p>
                             </div>
                         </div>
                         <div class="input-radio">
                             <input type="radio" name="payment" id="payment-2">
                             <label for="payment-2">
                                 <span></span>
-                                Cheque Payment
+                                Payphone
                             </label>
                             <div class="caption">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Realize el pago mediante PayPhone y reciba sus productos</p>
                             </div>
                         </div>
                         <div class="input-radio">
                             <input type="radio" name="payment" id="payment-3">
                             <label for="payment-3">
                                 <span></span>
-                                Paypal System
+                                Retirar en la tienda
                             </label>
                             <div class="caption">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Acérquese con su id de compra y retire sus productos en nuestra tienda física</p>
                             </div>
                         </div>
                     </div>
@@ -194,10 +195,10 @@
                         <input type="checkbox" id="terms">
                         <label for="terms">
                             <span></span>
-                            I've read and accept the <a href="#">terms & conditions</a>
+                            Acepto todos los <a href="#">términos & condiciones</a>
                         </label>
                     </div>
-                    <a href="#" class="primary-btn order-submit">Place order</a>
+                    <a href="#" class="primary-btn order-submit">Finalizar Pedido</a>
                 </div>
                 <!-- /Order Details -->
             </div>

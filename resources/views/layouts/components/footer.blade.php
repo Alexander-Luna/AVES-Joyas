@@ -10,10 +10,10 @@
                         <h3 class="footer-title">Acerca de</h3>
                         <p>Llevando a nuestros clientes siempre con estilo.</p>
                         <ul class="footer-links">
-                            <li><a href="#"><i class="fa-solid fa-location-dot"></i>9 de Abril y 10 de Agosto</a>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> 9 de Abril y 10 de Agosto</a>
                             </li>
-                            <li><a href="#"><i class="fa fa-phone"></i>0967126947</a></li>
-                            <li><a href="#"><i class="fa-regular fa-envelope"></i>guachivivi@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone"></i> 0967126947</a></li>
+                            <li><a href="#"><i class="fa-regular fa-envelope"></i> guachivivi@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
